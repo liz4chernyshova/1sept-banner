@@ -1,0 +1,42 @@
+.banner {
+    background-image: url(./images/background.png);
+}
+
+.modal-content {
+    background-image: url(./images/modal.png);
+    background-size: cover;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.fs-13 {
+    font-size: 13px;
+}
+
+.footnote {
+    font-size: 12px;
+    line-height: 130.02%;
+}
+
+.agreement {
+    font-size: 10px;
+    line-height: 130.02%;
+}
+
+.placehold {
+    padding: 17px 38px 16px 22px;
+    font-size: 13px;
+    line-height: 130%;
+}
+
+.btn-submit {
+    height: 44px;
+}
+
+.pointer {
+    position: absolute;
+    top: 54%;
+    left: 30px;
+}

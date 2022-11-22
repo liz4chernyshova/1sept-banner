@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="./index.css" rel="stylesheet">
+    <title>1sept banner</title>
+</head>
+<body class="body">
+    <div class="mx-auto banner">
+        <div class="d-flex align-items-center py-2 px-5">
+            <div class="align-self-start me-4"><img src="./images/school-bag.png" alt="image"></div>
+            <div class="col-auto col-sm-3">
+                <p class="fw-bold fs-6 m-0">Мы знаем, как закончить школу за <span class="text-primary">10 месяцев!</span></p>
+                <p class="fw-normal m-0 fs-13 fw-semibold">А потом устроиться на любимую работу</p>
+            </div>
+            <div class="my-auto me-3"><img src="./images/arrows-04_1.png" alt="image"></div>
+            <div class="col-auto col-sm-5">
+                <p class="fw-normal m-0 fs-13 fw-semibold">Хотите также? Приходите учиться в Хекслет!</p>
+                <p class="fw-bold fs-6 m-0"><span class="text-primary">До 1 сентября</span> оставьте заявку на любую профессию, 
+                    а мы подарим классные <span class="text-primary">бонусы</span> для воодушевляющего старта
+                </p>
+            </div>
+            <div class="mt-4 me-3"><img src="./images/arrows-04_2.png" alt="image"></div>
+            <div>
+                <button class="btn btn-primary col-auto me-5 fw-bold" data-bs-toggle="modal" data-bs-target="#exampleModal">А что подарите?</button>
+            </div>
+            <div class="align-self-end"><img src="./images/computer.png" alt="image"></div>
+        </div>
+    </div>
+
+    <div class="modal modal-xl fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content px-2">
+                <div class="modal-header p-3 mb-0 p-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex ms-5 pt-0">
+                    <div class="row col-7 me-0">
+                        <h2 class="modal-title text-primary fw-bold" id="exampleModalLabel">Хочу стать разработчиком!</h2>
+                        <p class="fw-bold fs-6 my-2">И получить один из трех подарков</p>
+                        <div class="d-flex align-items-center col-10 m-0">
+                            <img class="me-3" src="./images/Revenue.svg" alt="">
+                            <p class="lh-sm my-2"><span class="fw-bold">Именной депозит на 20к.</span> Будет доступен после покупки профессии, им можно оплачивать дальнейшее обучение 
+                                в Хекслете</p>
+                        </div>
+                        <div class="d-flex align-items-center col-9">
+                            <img class="me-3" src="./images/Online_Chat.svg" alt="">
+                            <p class="lh-sm my-2"><span class="fw-bold">Консультация с карьерным экспертом в IT.</span> 
+                                Прояснит вопросы будущего трудоустройства: от поиска первой работы до развития карьеры</p>
+                        </div>
+                        <div class="d-flex align-items-center col-9">
+                            <img class="me-4" src="./images/Notes.svg" alt="">
+                            <p class="lh-sm my-2"><span class="fw-bold">Возможность заморозить обучение на 2 месяца.</span> Перерыв, если нужно будет восстановить силы 
+                                и не учиться</p>
+                        </div>
+                        <p class="col-9 footnote">*Подарок определит сотрудник Хекслета после беседы. 
+                            Мы уточним ваши намерения, поможем с выбором, а если поймем,
+                             что программирование – это не ваше, честно отговорим от обучения
+                        </p>
+                    </div>
+                    <form class="col-3" action="">
+                        <div class="row mt-4 mb-2">
+                            <input type="text" class="form-control border-primary placehold" id="inputName" placeholder="Имя">
+                        </div>
+                        <div class="row mb-2 form-floating">
+                            <input type="email" class="form-control form-control-sm border-primary placehold" id="inputEmail" placeholder="example@gmail.com" value="example@gmail.com">
+                            <label for="inputEmail">Электронная почта</label>
+                        </div>
+                        <div class="row mb-2">
+                            <input type="text" class="form-control border-primary placehold" id="inputNumber" placeholder="Номер телефона">
+                        </div>
+                        <div class="row mb-2">
+                            <select class="form-select form-control border-primary placehold" id="inputFaculty" aria-label="Default select example">
+                                <option selected>Хочу на факультет</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                        </div>
+                        <div class="row mb-1">
+                            <button type="submit" class="btn btn-primary fw-bold btn-submit">Жду звонка</button>
+                        </div>
+                        <p class="agreement">Даю согласие на обработку персональных данных, 
+                            соглашаюсь с <a href="#" class="text-reset">«Политикой конфиденциальности»</a>
+                             и <a href="#" class="text-reset">«Условиями оказания услуг»</a>
+                        </p>
+                    </form>
+                    <div class="position-relative">
+                        <img class="pointer" src="./images/pointer.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="bootstrap/js/bootstrap.js"></script>
+</body>
+</html>
