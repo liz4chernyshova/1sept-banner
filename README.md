@@ -9,4 +9,4 @@
 2. Собственные стили СSS для кастомизации.
 
 
-* [Ссылка](https://liz4chernyshova.github.io/1sept-banner/)
+* [Ссылка на проект](https://liz4chernyshova.github.io/1sept-banner/)
